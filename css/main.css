@@ -1,0 +1,39 @@
+@import url(./normalize.css);
+
+.container {
+  width: 95vw;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.template {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.col {
+  height: 2.5rem;
+  background-color: #dadada;
+  border: 1px solid #aaa;
+}
+
+.col-even {
+  flex: 1;
+}
+
+.template-gridish {
+  flex-wrap: wrap;
+}
+
+.col-gridish {
+  flex: 1 1 10em; /* allowed to grow, allowed to shrink, every element wants to be 10 em */
+}
+
+.content {
+  flex: 1 1 70vw;
+}
+
+.sidebar {
+  flex: 1 1 30vw;
+}
